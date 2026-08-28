@@ -37,6 +37,11 @@ h2 { margin: 0 0 24px; font-size: 32px; line-height: 1.2; letter-spacing: -.03em
 h3 { margin: 30px 0 8px; font-size: 18px; }
 p, li { color: #53473e; }
 li + li { margin-top: 8px; }
+.table-wrap { overflow-x: auto; margin: 18px 0; border: 1px solid var(--line); border-radius: 14px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 13px 15px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+th { width: 150px; background: var(--cream); }
+tr:last-child > * { border-bottom: 0; }
 .callout { padding: clamp(24px, 5vw, 42px); background: var(--cream); border: 1px solid var(--line); border-radius: 24px; }
 .cta { display: inline-block; margin-top: 10px; padding: 12px 18px; color: white; background: var(--ink); border-radius: 12px; font-weight: 800; text-decoration: none; }
 .cta:hover { background: #5b3c28; }
