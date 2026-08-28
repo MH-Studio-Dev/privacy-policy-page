@@ -49,6 +49,7 @@ footer { padding: 28px 24px; color: var(--muted); background: var(--cream); text
 
 @media (max-width: 760px) {
   .site-header { padding-inline: 16px; }
+  .brand, .brand img { width: 55px; height: 55px; }
   .hero { padding: 52px 20px 42px; }
   .layout { display: block; padding: 32px 20px 72px; }
   aside { position: static; margin-bottom: 44px; }
@@ -56,10 +57,6 @@ footer { padding: 28px 24px; color: var(--muted); background: var(--cream); text
   aside a { flex: none; padding: 8px 12px; background: var(--cream); border: 0; border-radius: 999px; }
   article section { margin-bottom: 52px; }
   h2 { font-size: 28px; }
-}
-
-@media (orientation: portrait) {
-  .brand, .brand img { width: 46px; height: 46px; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
